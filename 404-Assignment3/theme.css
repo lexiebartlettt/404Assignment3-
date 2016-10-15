@@ -1,0 +1,30 @@
+body {
+    background-image: url("oldPaper.jpg");
+    background-color: #cccccc;
+    font-family: "Century";
+    color: SaddleBrown;
+}
+h1{ 
+	font-family:"lucida calligraphy",arial,'sans serif'; 
+	font-size: 300%;
+	text-align: center;
+	text-decoration: underline;
+}
+h2{ 
+	text-decoration: underline;
+}
+
+h3{ 
+	text-decoration: underline;
+}
+pre{ 
+	text-align: center;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+p{ 
+ font-style: italic;
+}

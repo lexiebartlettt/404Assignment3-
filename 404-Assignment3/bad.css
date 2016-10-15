@@ -1,0 +1,96 @@
+/* The side navigation menu */
+body{ 
+    font-family: "Comic Sans", cursive,sans-serif;
+    background: url('trippy.jpg');
+
+    cursor: url(curse.gif), help;
+}
+.sidenav {
+    height: 75%; /* 100% Full-height */
+    width: 100%; /* 
+    0 width - change this with JavaScript */
+    position:fixed;
+    background-color: yellow;  
+    margin-left:85%;
+    color:orange;
+ 
+}
+.mypicture {
+    background: url('me.jpg') no-repeat;
+    background-size:150px;
+    width:150px;
+    height:200px;
+     float: left;
+
+}
+
+#About{
+
+    color:black;
+    padding-top: 10px; 
+    padding-left:200px;
+    padding-right:400px;
+
+}
+#About p{
+
+   background:red;
+}
+#About h3{ 
+
+    background:green;
+}
+#About h2{ 
+    font-family: Papyrus, fantasy;
+    color:green;
+    background:orange;
+}
+div.top {
+    font-family: Papyrus, fantasy;
+    padding-top: 10px; 
+    padding-left:10px;
+    padding-right:10px;
+    background-color: blue;
+    background-image: url("blueFlare.jpg");
+    color: red;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    text-align: center;
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 1s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 1s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 1s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}    
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}    
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    20%{color: red;}
+    40%{color: yellow;}
+    60%{color: green;}
+    80%{color: blue;}
+    100%{color: orange;}    
+}
+
+}
+
